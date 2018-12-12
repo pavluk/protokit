@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.9" type="template" client="site" method="upgrade">
+	<name>protokit</name>
+	<author>NorrNext</author>
+	<creationDate>@date@</creationDate>
+	<copyright>Copyright (C) 2015 - 2018 NorrNext. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or later; see license.txt</license>
+	<authorEmail>support@norrnext.com</authorEmail>
+	<authorUrl>https://www.norrnext.com</authorUrl>
+	<version>@version@</version>
+	<description>TPL_PROTOKIT_DESCRIPTION</description>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_protokit.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_protokit.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_protokit.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_protokit.sys.ini</language>
+	</languages>
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>offline.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	<positions>
+		<position>banner</position>
+		<position>debug</position>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+		<position>position-11</position>
+		<position>position-12</position>
+		<position>position-13</position>
+		<position>position-14</position>
+		<position>footer</position>
+	</positions>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			</fieldset>
+		</fields>
+	</config>
+</extension>
