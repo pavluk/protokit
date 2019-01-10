@@ -51,7 +51,48 @@
 	</positions>
 	<config>
 		<fields name="params">
-			<fieldset name="basic">
+			<fieldset name="advanced">
+				<field name="templateColor"
+					   type="color"
+					   label="TPL_PROTOKIT_PARAMS_COLOR_LABEL"
+					   description="TPL_PROTOKIT_PARAMS_COLOR_DESC"
+					   class=""
+					   default="#08C"/>
+				<field name="templateBackgroundColor" type="color"
+					   label="TPL_PROTOKIT_PARAMS_BACKGROUND_COLOR_LABEL"
+					   description="TPL_PROTOKIT_PARAMS_BACKGROUND_COLOR_DESC"
+					   class=""
+					   default="#F4F6F7"/>
+				<field name="logoFile"
+					   type="media"
+					   label="TPL_PROTOKIT_PARAMS_LOGO_LABEL"
+					   description="TPL_PROTOKIT_PARAMS_LOGO_DESC"
+					   class=""
+					   default=""/>
+				<field name="sitetitle" type="text"
+					   label="JGLOBAL_TITLE"
+					   description="JFIELD_ALT_PAGE_TITLE_LABEL"
+					   default=""
+					   filter="string"/>
+				<field name="sitedescription" type="text"
+					   label="JGLOBAL_DESCRIPTION"
+					   description="JGLOBAL_SUBHEADING_DESC"
+					   default=""
+					   filter="string"/>
+				<field name="googleFont" type="radio"
+					   label="TPL_PROTOKIT_PARAMS_FONT_LABEL"
+					   description="TPL_PROTOKIT_PARAMS_FONT_DESC"
+					   class="btn-group btn-group-yesno"
+					   default="1">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="googleFontName" type="text"
+					   label="TPL_PROTOKIT_PARAMS_FONT_NAME_LABEL"
+					   description="TPL_PROTOKIT_PARAMS_FONT_NAME_DESC"
+					   class=""
+					   default="Open+Sans"
+					   showon="googleFont:1"/>
 			</fieldset>
 		</fields>
 	</config>
